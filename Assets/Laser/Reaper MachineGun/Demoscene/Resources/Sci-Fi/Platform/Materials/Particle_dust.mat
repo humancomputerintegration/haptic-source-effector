@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Particle_dust
+  m_Shader: {fileID: 200, guid: 0000000000000000e000000000000000, type: 0}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 7a70c3866af9a16479ff9ffef5855ce0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 2800000, guid: ae266fff3d7fb814ab891ce6bcb58c71, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TMAP
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AO
+        second:
+          m_Texture: {fileID: 2800000, guid: 047e1563bea22e44daebad95b230d990, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .00999999978
+      data:
+        first:
+          name: _InvFade
+        second: 3
+      data:
+        first:
+          name: _Parallax
+        second: 0
+      data:
+        first:
+          name: _RMS
+        second: .707106769
+      data:
+        first:
+          name: _TMUL
+        second: 2.78999996
+      data:
+        first:
+          name: _Dist
+        second: .173076898
+      data:
+        first:
+          name: _Amount
+        second: -.0199999996
+      data:
+        first:
+          name: _Movement
+        second: 1
+      data:
+        first:
+          name: _Strength
+        second: 25
+      data:
+        first:
+          name: _TPOW
+        second: 3.78999996
+      data:
+        first:
+          name: _AOST
+        second: .461538464
+      data:
+        first:
+          name: _PP
+        second: .390769213
+      data:
+        first:
+          name: _RS
+        second: 1
+      data:
+        first:
+          name: _RM
+        second: .673077047
+      data:
+        first:
+          name: _RPS
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .109069817, g: 0, b: .820895553, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 1, g: 1, b: 1, a: .501960814}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 1, g: 1, b: 1, a: .5}
+      data:
+        first:
+          name: _SSSC
+        second: {r: .612044692, g: .529850721, b: 1, a: 1}
